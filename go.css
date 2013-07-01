@@ -1,0 +1,23 @@
+/* CSS declarations go here */
+
+svg {
+  background-color: #f5bb71;
+}
+
+.inter {
+  fill: #f5bb71;
+}
+
+.cross {
+  fill: #f5bb71;
+  stroke: black;
+}
+
+.stone.white {
+  fill: white;
+}
+
+.stone.black {
+  fill: black;
+}
+

@@ -1,0 +1,17 @@
+<head>
+  <title>go</title>
+</head>
+
+<body>
+  {{>hello}}
+</body>
+
+<template name="hello">
+  <div>
+    <button id="reset">Reset board</button>
+  </div>
+  <svg width="450" height="450">
+    <g class="tiles" />
+    <g class="circles" />
+  </svg>
+</template>
