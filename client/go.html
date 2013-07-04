@@ -3,15 +3,16 @@
 </head>
 
 <body>
-  {{>hello}}
+  {{>board}}
 </body>
 
-<template name="hello">
+<template name="board">
   <div>
+    {{loginButtons}}
     <button id="reset">Reset board</button>
   </div>
   <svg width="450" height="450">
     <g class="tiles" />
-    <g class="circles" />
+    <g class="stones" />
   </svg>
 </template>
