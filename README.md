@@ -1,3 +1,4 @@
+[![Stories in Ready](http://badge.waffle.io/jbernab/framps-go.png)](http://waffle.io/jbernab/framps-go)  
 framps-go
 =========
 
